@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Golden Plate</title>
     <style>
-  
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ body {
 }
 
 
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -216,13 +217,12 @@ nav ul li a:hover {
         </div>
     </section>
 
-
+ 
     <section class="reviews">
         <h2>What Our Customers Say</h2>
         <p>"An unforgettable dining experience! Highly recommend."</p>
     </section>
 
-  
     <button class="review-button">⭐ Leave a Review</button>
     </body>
 </html>
