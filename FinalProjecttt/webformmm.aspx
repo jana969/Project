@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Golden Plate</title>
     <style>
-    /* General Styles */
+  
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +19,7 @@ body {
     text-align: center;
 }
 
-/* Header */
-header {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +54,7 @@ nav ul li a:hover {
     color: darkorange;
 }
 
-/* Hero Section */
+
 .hero {
     margin-top: 80px;
     text-align: center;
@@ -90,7 +89,7 @@ nav ul li a:hover {
     background: darkgoldenrod;
 }
 
-/* Menu Section */
+
 .menu {
     padding: 50px 20px;
 }
@@ -135,7 +134,7 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Reviews Section */
+
 .reviews {
     padding: 50px 20px;
     background: #fff9e6;
@@ -151,7 +150,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-/* Review Button */
+
 .review-button {
     position: fixed;
     bottom: 20px;
@@ -188,14 +187,14 @@ nav ul li a:hover {
         </nav>
     </header>
 
-    <!-- Hero Section -->
+   
     <section class="hero">
         <h1>Experience Fine Dining</h1>
         <p>Enjoy gourmet dishes in a luxurious atmosphere.</p>
         <button class="book-button">Book a Table</button>
     </section>
 
-    <!-- Featured Dishes -->
+  
     <section class="menu">
         <h2>Our Special Dishes</h2>
         <div class="menu-items">
