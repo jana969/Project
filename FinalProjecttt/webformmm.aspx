@@ -207,7 +207,7 @@ nav ul li a:hover {
             <div class="dish">
                 <img src="pictures/ph3.jpg" alt="Dish 2">
                 <h3>Seafood Pasta</h3>
-                <p>Fresh seafood tossed in a rich garlic butter sauce.</p>
+                <p>Fresh seafood tossed in a rich garlic butter sauce</p>
             </div>
             <div class="dish">
                 <img src="pictures/ph4.jpg" alt="Dish 3">
