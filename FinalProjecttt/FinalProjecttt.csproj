@@ -67,8 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="hpp.html" />
     <Content Include="LOGO.aspx" />
+    <Content Include="pictures\burger-removebg-preview.png" />
+    <Content Include="pictures\logo2.jpg" />
+    <Content Include="pictures\logoo.jpg" />
+    <Content Include="pictures\ph2.jpg" />
+    <Content Include="pictures\ph3.jpg" />
+    <Content Include="pictures\ph4.jpg" />
+    <Content Include="pictures\restaurant3.jfif" />
     <Content Include="Web.config" />
+    <Content Include="webformmm.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LOGO.aspx.cs">
@@ -79,9 +88,17 @@
       <DependentUpon>LOGO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="webformmm.aspx.cs">
+      <DependentUpon>webformmm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webformmm.aspx.designer.cs">
+      <DependentUpon>webformmm.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="pictures\ph1.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
