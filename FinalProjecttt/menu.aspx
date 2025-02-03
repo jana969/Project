@@ -19,7 +19,7 @@
             text-align: center;
         }
 
-        /* Fixed Header */
+        
         header {
             position: fixed;
             top: 0;
@@ -69,7 +69,6 @@
             color: #C9A227;
         }
 
-        /* Hero Section */
         .hero {
             margin-top: 100px;
             text-align: center;
@@ -113,7 +112,7 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
         }
 
-        /* Reviews Section */
+       
         .reviews {
             padding: 50px 20px;
             background: white;
@@ -169,7 +168,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    
     <section class="hero">
         <h1>Golden Plate</h1>
         <p>Enjoy gourmet dishes in a luxurious atmosphere.</p>
@@ -177,7 +176,7 @@
         <button class="order-button">Order Now</button>
     </section>
 
-    <!-- Reviews Section -->
+    
     <section class="reviews">
         <h2>What Our Customers Say</h2>
         <p>"An unforgettable dining experience! Highly recommend."</p>

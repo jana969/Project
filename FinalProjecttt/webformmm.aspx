@@ -53,11 +53,11 @@ body {
 
 .NameOfRes {
     font-family: 'Playfair Display', serif;
-    position: absolute; /* Position text relative to the logo */
+    position: absolute; 
    
-    right: 75%; /* Align text horizontally to the center of the logo */
+    right: 75%; 
     
-    z-index: 0; /* Places the text behind the logo */
+    z-index: 0; 
     color: white;
     font-size: 20px;
 }
@@ -110,24 +110,25 @@ nav ul li a:hover {
 }
 
 .order-button {
-    color: black; /* White text to contrast with gold */
-    background: #b8860b; /* Rich gold color */
+    color: black; 
+    background: #b8860b; 
     padding: 10px 20px;
     border: none;
-    border-radius: 20px; /* Softer, more elegant roundness */
+    border-radius: 20px; 
     font-size: 16px;
-    font-family: 'Cormorant Garamond', serif; /* Elegant, luxury font */
+    font-family: 'Cormorant Garamond', serif;
     cursor: pointer;
     font-weight: bold;
-    text-transform: uppercase; /* For a more premium look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds depth */
-    transition: background 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease; 
 }
 
 .order-button:hover {
-    background: #ffd700; /* Lighter, shiny gold for the hover effect */
-    transform: scale(1.05); /* Slightly increase the size on hover for elegance */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    background: #ffd700; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+
 }
 
 
@@ -198,24 +199,24 @@ nav ul li a:hover {
     position: fixed;
     bottom: 20px;
     right: 10px;
-    background: #b8860b; /* True jewelry gold color */
-    color: black; /* White text to contrast against the gold */
+    background: #b8860b; 
+    color: black; 
     padding: 12px 20px;
     border: none;
-    border-radius: 25px; /* Softer, more elegant roundness */
+    border-radius: 25px; 
     font-size: 14px;
-    font-family: 'Cormorant Garamond', serif; /* Luxurious, elegant font */
+    font-family: 'Cormorant Garamond', serif; 
     cursor: pointer;
     font-weight: bold;
-    text-transform: uppercase; /* Adds a classy, refined touch */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds depth and luxury */
-    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition for hover */
+    text-transform: uppercase; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background 0.3s ease, transform 0.2s ease; 
 }
 
 .review-button:hover {
-    background: #ffd700; /* Lighter, shiny gold on hover */
-    transform: scale(1.05); /* Slightly increase size for elegance */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    background: #ffd700; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 
