@@ -9,33 +9,61 @@
 * {
     margin: 0;
     padding: 0;
+    font-size:20 px;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
 }
 
 
-header {
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 80px;
+            background: black;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            text-decoration-color: white;
+            box-shadow: 0 4px 15px rgba(255, 223, 0, 0.8), 
+            0 0 10px rgba(255, 215, 0, 0.6);
+        }
+
+.logo-container {
+     
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
-    background: white;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   align-items: center;
+    
 }
 
 .logo {
+    
+   
     width: 100px;
     height: auto;
+    
+   
 }
+
+.NameOfRes {
+    font-family: 'Playfair Display', serif;
+    position: absolute; /* Position text relative to the logo */
+   
+    right: 75%; /* Align text horizontally to the center of the logo */
+    
+    z-index: 0; /* Places the text behind the logo */
+    color: white;
+    font-size: 20px;
+}
+
+
+
 
 nav ul {
     list-style: none;
@@ -45,14 +73,14 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 16px;
     padding: 5px 10px;
     transition: 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: darkorange;
+    color:#C9A227;
 }
 
 
@@ -67,6 +95,13 @@ nav ul li a:hover {
 .hero h1 {
     font-size: 42px;
     font-weight: bold;
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(180deg, #FFD700, #E6C200, #B8860B, #8B7500);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
@@ -74,21 +109,27 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-.book-button {
-    background: orange;
-    color: black;
-    padding: 12px 20px;
+.order-button {
+    color: black; /* White text to contrast with gold */
+    background: #b8860b; /* Rich gold color */
+    padding: 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 20px; /* Softer, more elegant roundness */
     font-size: 16px;
+    font-family: 'Cormorant Garamond', serif; /* Elegant, luxury font */
     cursor: pointer;
     font-weight: bold;
-    margin-top: 20px;
+    text-transform: uppercase; /* For a more premium look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds depth */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
 }
 
-.book-button:hover {
-    background: darkgoldenrod;
+.order-button:hover {
+    background: #ffd700; /* Lighter, shiny gold for the hover effect */
+    transform: scale(1.05); /* Slightly increase the size on hover for elegance */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }
+
 
 
 .menu {
@@ -138,37 +179,45 @@ nav ul li a:hover {
 
 .reviews {
     padding: 50px 20px;
-    background: #fff9e6;
+    background: white;
 }
 
 .reviews h2 {
     font-size: 28px;
+    color: #c68e17; 
 }
 
 .reviews p {
     font-size: 16px;
     color: #666;
-    margin-top: 10px;
+    
 }
 
 
 .review-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    background: orange;
-    color: black;
+    right: 10px;
+    background: #b8860b; /* True jewelry gold color */
+    color: black; /* White text to contrast against the gold */
     padding: 12px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px; /* Softer, more elegant roundness */
     font-size: 14px;
+    font-family: 'Cormorant Garamond', serif; /* Luxurious, elegant font */
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase; /* Adds a classy, refined touch */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds depth and luxury */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition for hover */
 }
 
 .review-button:hover {
-    background: darkgoldenrod;
+    background: #ffd700; /* Lighter, shiny gold on hover */
+    transform: scale(1.05); /* Slightly increase size for elegance */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }
+
 
 
 
@@ -177,11 +226,15 @@ nav ul li a:hover {
 </head>
 <body>
     <header>
-        <img src="pictures/logo2.jpg" alt="Restaurant Logo" class="logo">
+        <div class="logo-container">
+        <img src="pictures\logoo.jpg" alt="Restaurant Logo" class="logo">
+           </div>
+       
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="menu.aspx">Menu</a></li>
                 <li><a href="#">Reservations</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -189,10 +242,11 @@ nav ul li a:hover {
     </header>
 
    
-    <section class="hero">
-        <h1>Experience Fine Dining</h1>
+   <section class="hero">
+        <h1>Golden Plate</h1>
         <p>Enjoy gourmet dishes in a luxurious atmosphere.</p>
-        <button class="book-button">Book a Table</button>
+        <br />
+        <button class="order-button">Order Now</button>
     </section>
 
   
@@ -221,7 +275,7 @@ nav ul li a:hover {
     <section class="reviews">
         <h2>What Our Customers Say</h2>
         <p>"An unforgettable dining experience! Highly recommend."</p>
-    </section>
+    </section> 
 
     <button class="review-button">⭐ Leave a Review</button>
     </body>
