@@ -20,18 +20,20 @@
         }
 
         
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: black;
-            padding: 15px 0;
-            text-align: center;
-            z-index: 1000;
-            box-shadow: 0 4px 15px rgba(255, 223, 0, 0.8), 
-                        0 0 10px rgba(255, 215, 0, 0.6);
-        }
+       header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    box-shadow: 0 4px 15px rgba(255, 223, 0, 0.8), 
+                0 0 10px rgba(255, 215, 0, 0.6);
+    z-index: 1000; 
+}
 
         .logo-container {
             display: flex;
@@ -128,7 +130,7 @@
             color: #666;
         }
 
-        /* Review Button */
+      
         .review-button {
             position: fixed;
             bottom: 20px;
@@ -160,7 +162,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="webformmm.aspx">Home</a></li>
+                <li><a href="home.aspx">Home</a></li>
                 <li><a href="menu.aspx">Menu</a></li>
                 <li><a href="reservations.aspx">Reservations</a></li>
                 <li><a href="contact.aspx">Contact</a></li>
@@ -173,8 +175,9 @@
         <h1>Golden Plate</h1>
         <p>Enjoy gourmet dishes in a luxurious atmosphere.</p>
         <br />
-        <button class="order-button">Order Now</button>
+        <button class="order-button">Check our menu</button>
     </section>
+   
 
     
     <section class="reviews">
