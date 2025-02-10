@@ -275,7 +275,7 @@ nav ul li a:hover {
 
  
     <section class="reviews">
-        <h2>What Our Customers Say</h2>
+        <h2>What Our Customers Say :)</h2>
         <p>"An unforgettable dining experience! Highly recommend."</p>
     </section> 
 

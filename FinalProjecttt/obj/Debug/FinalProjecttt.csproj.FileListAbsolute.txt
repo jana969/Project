@@ -335,3 +335,5 @@ C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.Security.Principal.Win
 C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.Text.Encodings.Web.xml
 C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.ValueTuple.xml
+C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.Data.SqlClient.dll
+C:\Users\Dell\source\repos\Proj\FinalProjecttt\bin\System.Data.SqlClient.xml

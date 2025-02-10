@@ -11,6 +11,10 @@ namespace FinalProjecttt
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //OrderOnline.InnerHtml = "<h1>Order 1</h1>";
+        }
+        protected void Add(object sender, EventArgs e)
+        {
 
         }
     }
